@@ -12,6 +12,12 @@
 								{{destination.description}}
 							</div>
 						</div>
+						<h2>Activités touristiques</h2>
+						<div class="grid">
+							<div class="grid-md6" *ngFor="let activity of activities">
+								<app-activity [activity]="activity"></app-activity>
+							</div>
+						</div>
 					</section>
 					<section class="grid-md4 grid-lg3 grid-lgOffset1 infos-section">
 						<div class="infos">

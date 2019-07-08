@@ -6,6 +6,7 @@ import { DestinationThumbnailComponent, DestinationGalleryComponent } from './co
 import { DestinationResolver } from './destination.resolver';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
+import { ActivityModule } from '../activity';
 import { ApiModule } from '../api';
 
 @NgModule({
@@ -13,6 +14,7 @@ import { ApiModule } from '../api';
 		DestinationRoutingModule,
 		CommonModule,
 		HttpClientModule,
+		ActivityModule,
 		ApiModule,
 	],
 	providers: [
